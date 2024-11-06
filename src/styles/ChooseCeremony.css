@@ -1,0 +1,117 @@
+.div-wrapper {
+  background-color: #f5f4ec;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.div-wrapper .div {
+  background-color: #f5f4ec;
+  height: 780px;
+  overflow: hidden;
+  position: relative;
+  width: 360px;
+}
+.div-wrapper .text-wrapper {
+  color: #000000;
+  font-family: "PingFang SC-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 111px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 43px;
+  white-space: nowrap;
+}
+.div-wrapper .text-wrapper-2 {
+  color: #000000;
+  font-family: "PingFang SC-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 139px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 125px;
+  white-space: nowrap;
+}
+.div-wrapper .text-wrapper-3 {
+  color: #00000033;
+  font-family: "PingFang SC-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 100px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 614px;
+  white-space: nowrap;
+}
+.div-wrapper .text-wrapper-4 {
+  color: #bebebe;
+  font-family: "PingFang SC-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 92px;
+  letter-spacing: 0;
+  line-height: 21px;
+  position: absolute;
+  top: 73px;
+  white-space: nowrap;
+}
+.div-wrapper .cards {
+  height: 444px;
+  left: 47px;
+  position: absolute;
+  top: 163px;
+  width: 548px;
+}
+.div-wrapper .introduction {
+  height: 444px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 266px;
+}
+.div-wrapper .introduction-card {
+  height: 444px;
+  left: 282px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 266px;
+}
+.div-wrapper .laststep-icon {
+  height: 34px;
+  left: 24px;
+  object-fit: cover;
+  position: absolute;
+  top: 725px;
+  width: 34px;
+}
+.div-wrapper .order {
+  height: 12px;
+  left: 130px;
+  object-fit: cover;
+  position: absolute;
+  top: 736px;
+  width: 99px;
+}
+.div-wrapper .exitedit-icon {
+  height: 14px;
+  left: 24px;
+  object-fit: cover;
+  position: absolute;
+  top: 52px;
+  width: 14px;
+}
+.div-wrapper .beginceremony-button {
+  height: 55px;
+  left: 114px;
+  object-fit: cover;
+  position: absolute;
+  top: 647px;
+  width: 131px;
+}

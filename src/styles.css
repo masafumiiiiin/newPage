@@ -1,0 +1,13 @@
+/* 全局样式 */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  /* font-family: Arial, sans-serif; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #cbc2e9; */
+  background-color: #ffffff;
+  height: 100vh;
+}

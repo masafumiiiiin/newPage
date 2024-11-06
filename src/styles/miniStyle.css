@@ -1,0 +1,163 @@
+/* 设置element容器的整体布局 */
+.element {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* 设置container以便让其在页面中居中 */
+.container1 {
+  background-color: #dab38a;
+  height: 780px;
+  overflow: hidden;
+  width: 360px;
+}
+
+.container2 {
+  background-color: #cbc2e8;
+  height: 780px;
+  overflow: hidden;
+  width: 360px;
+}
+
+/* header 容器样式 */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px; /* 可根据需要调整 */
+}
+
+/* header-top 容器 */
+.header-top {
+  position: relative; /* 允许子元素绝对定位 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px; /* 与副标题的间距 */
+}
+
+/* 标题图片样式 */
+.headerBG {
+  width: auto; /* 根据需要调整宽度 */
+  height: auto;
+  z-index: 1; /* 让标题位于按钮下层 */
+}
+
+.title {
+  /* position: absolute; */
+  top: 50%; /* 垂直居中对齐标题 */
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  /* margin-top: 1px; */
+  z-index: 3;
+}
+/* 
+  这里需要跳转！
+  */
+/* 左右箭头按钮样式 */
+.left-button,
+.right-button {
+  position: absolute;
+  top: 45%; /* 垂直居中对齐标题 */
+  transform: translateY(-50%); /* 精确居中 */
+  width: 36px; /* 按钮大小 */
+  height: 36px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  cursor: pointer;
+  z-index: 2; /* 让按钮位于标题上方 */
+}
+
+/* 左按钮位置 */
+.left-button {
+  left: 4px; /* 根据标题图片调整水平位置 */
+}
+
+/* 右按钮位置 */
+.right-button {
+  right: 10px; /* 根据标题图片调整水平位置 */
+}
+
+/* 副标题样式 */
+.sub-title {
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* 
+  这里需要跳转！
+  */
+.check-button {
+  position: absolute;
+  bottom: 150px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  z-index: 2;
+}
+
+Spline 部分样式 .Spline {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: auto;
+  /* max-width: 500px; 控制 Spline 图片的最大宽度 */
+  object-fit: cover;
+  margin: 10px 0; /* 设置与其他元素的间距 */
+}
+
+.spline-viewer-container {
+  position: relative; /* 使子元素绝对定位相对于容器 */
+  width: 90%; /* 容器占满父级宽度 */
+  height: calc(100vh - 100px); /* 根据需要调整高度，例如 100vh - 100px */
+  transform: translate(0, 5%);
+  max-width: 300px; /* 根据需要设置最大宽度 */
+  max-height: 496px; /* 根据需要设置最大高度 */
+  margin: 0 auto; /* 水平居中 */
+  overflow: hidden; /* 确保溢出内容隐藏 */
+  border-radius: 48px; /* 圆角 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 阴影效果 */
+}
+
+.spline-viewer {
+  position: absolute; /* 绝对定位 */
+  top: 200px; /* 距离顶部固定距离 */
+  bottom: 50px; /* 距离底部固定距离 */
+  margin: auto;
+  width: auto; /* 宽度自动适应 */
+  height: auto; /* 高度自动适应 */
+}
+
+/* Footer 部分样式 */
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 96px; /* 图标之间的间距 */
+  background-color: transparent; /* 底部背景颜色，可根据需要调整 */
+  width: 100%;
+  max-width: 360px; /* 设置最大宽度，使其居中对齐 */
+  margin: 0 auto; /* 自动水平居中 */
+  box-sizing: border-box;
+  position: fixed; /* 固定在底部 */
+  bottom: 0; /* 距离底部 0 */
+  padding: 70px 0; /* 上下留白，根据需要调整 */
+}
+
+/* 
+  这里需要跳转！
+  */
+.setting-icon,
+.gaobielu-icon,
+.music-icon {
+  width: 28px; /* 控制图标的宽度 */
+  height: 28px;
+  cursor: pointer;
+}

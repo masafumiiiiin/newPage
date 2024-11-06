@@ -1,0 +1,55 @@
+.box {
+  height: 153px;
+  width: 262px;
+}
+.box .chosetosave-box {
+  height: 153px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 264px;
+}
+.box .overlap-group {
+  background-image: url(./savebox-background.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 153px;
+  position: relative;
+  width: 262px;
+}
+.box .question-text {
+  color: #000000;
+  font-family: "PingFang SC-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 66px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  top: 29px;
+  white-space: nowrap;
+}
+.box .nosave-button {
+  height: 54px;
+  left: 20px;
+  object-fit: cover;
+  position: absolute;
+  top: 81px;
+  width: 102px;
+}
+.box .save-button {
+  height: 54px;
+  left: 136px;
+  object-fit: cover;
+  position: absolute;
+  top: 81px;
+  width: 102px;
+}
+.box .split {
+  height: 1px;
+  left: 20px;
+  object-fit: cover;
+  position: absolute;
+  top: 64px;
+  width: 218px;
+}
